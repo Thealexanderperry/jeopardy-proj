@@ -1,2 +1,2 @@
 # jeopardy-proj
-testing 123
+a jeopardy project for school
