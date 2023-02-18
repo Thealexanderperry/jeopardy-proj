@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Final Jeopardy</title>
+  </head>
+  <body>
+    <div class="body">
+    <!-- This is my return to menu button -->
+    <a href="./index.html"><button class="main-menu">Return to Main Menu</button></a>
+    <header>
+      <h1 id="round-one">Final Jeopardy</h1>
+    </header>
+    <h2 id="player-turn-header">Player Turn</h2>
+    <!-- final guestion -->
+    <div class="final-question-box">
+      <table>
+        <tr>
+          <td class="categories" id="final-q">Final Jeopardy</td>
+        </tr>
+      </table>
+    </div>
+    <!-- final answer input -->
+    <div class="final-answer-box">
+      <form class="final-answer-form">
+        <!-- point bet amount -->
+        <input type="text" placeholder="Point bet amount..." name="user-input" id="user-input" class="answer-form">
+        <!-- final answer guess -->
+        <input type="text" placeholder="Final answer..." name="user-input" id="user-input" class="answer-form">
+      </form>
+      <!-- bet button -->
+      <button class="guess">BET</button>
+    </div>
+  </div>
+  <!-- Do not change the script source. Allows import/export to work. -->
+  <script src="../scripts/final-jeopardy.js" type="module"></script>
+</body>
+<footer class="foot">Footer Site Information</footer>
+</html>

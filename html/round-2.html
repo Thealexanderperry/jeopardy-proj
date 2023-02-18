@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Jeopardy</title>
+  </head>
+  <body class="round-body">
+    <div class="body">
+    <!-- This is my return to menu button -->
+    <a href="./index.html"><button class="main-menu">Return to Main Menu</button></a>
+    
+    <h1 id="round-two">Second Round</h1>
+    <h2 id="player-turn-header">Player Turn</h2>
+    <!-- Game Table -->
+    <Table class="game-table">
+      <tr>
+        <td class="categories">Nature</td>
+        <td class="categories">Animals</td>
+        <td class="categories">Computers</td>
+        <td class="categories">Mythology</td>
+        <td class="categories">History</td>
+        <td class="categories">General</td>
+      </tr>
+      
+      <tr>
+        <td class="col-1 row-1 jeopardy-row">$100</td>
+        <td class="col-2 row-1 jeopardy-row">$100</td>
+        <td class="col-3 row-1 jeopardy-row">$100</td>
+        <td class="col-4 row-1 jeopardy-row">$100</td>
+        <td class="col-5 row-1 jeopardy-row">$100</td>
+        <td class="col-6 row-1 jeopardy-row">$100</td>
+      </tr>
+      
+      <tr>
+        <td class="col-1 row-2 jeopardy-row">$200</td>
+        <td class="col-2 row-2 jeopardy-row">$200</td>
+        <td class="col-3 row-2 jeopardy-row">$200</td>
+        <td class="col-4 row-2 jeopardy-row">$200</td>
+        <td class="col-5 row-2 jeopardy-row">$200</td>
+        <td class="col-6 row-2 jeopardy-row">$200</td>
+      </tr>
+      
+      <tr>
+        <td class="col-1 row-3 jeopardy-row">$300</td>
+        <td class="col-2 row-3 jeopardy-row">$300</td>
+        <td class="col-3 row-3 jeopardy-row">$300</td>
+        <td class="col-4 row-3 jeopardy-row">$300</td>
+        <td class="col-5 row-3 jeopardy-row">$300</td>
+        <td class="col-6 row-3 jeopardy-row">$300</td>
+      </tr>
+      
+      <tr>
+        <td class="col-1 row-4 jeopardy-row">$400</td>
+        <td class="col-2 row-4 jeopardy-row">$400</td>
+        <td class="col-3 row-4 jeopardy-row">$400</td>
+        <td class="col-4 row-4 jeopardy-row">$400</td>
+        <td class="col-5 row-4 jeopardy-row">$400</td>
+        <td class="col-6 row-4 jeopardy-row">$400</td>
+      </tr>
+      
+      <tr>
+        <td class="col-1 row-6 jeopardy-row">$500</td>
+        <td class="col-2 row-6 jeopardy-row">$500</td>
+        <td class="col-3 row-6 jeopardy-row">$500</td>
+        <td class="col-4 row-6 jeopardy-row">$500</td>
+        <td class="col-5 row-6 jeopardy-row">$500</td>
+        <td class="col-6 row-6 jeopardy-row">$500</td>
+      </tr>
+    </Table>
+    <!-- player guess input -->
+    <div class="input-container">
+      <div class="input-box">
+        <input type="text" placeholder="User input..." name="user-input" id="user-input">
+      </div>
+      <!-- guess or pass buttons -->
+      <div class="buttons-div">
+        <button class="guess">Guess</button>
+        <button class="pass">Pass</button>
+      </div>
+    </div>
+    <!-- next round button -->
+    <div class="next-round">
+      <a href="./final-jeopardy.html">
+        <button id="next-round">Next Round</button>
+      </a>
+    </div>
+    <!-- player 1 and 2 scores -->
+    <div class="playerscore">
+      <h2 id="p1score">Player 1 Score: 0</h2>
+      <h2 id="p2score">Player 2 Score: 0</h2>
+    </div>
+  </div>
+  <!-- Do not change the script source. Allows import/export to work. -->
+  <script src="../scripts/round-2.js" type="module"></script>
+</body>
+<footer class="foot">Footer Site Information</footer>
+</html>  

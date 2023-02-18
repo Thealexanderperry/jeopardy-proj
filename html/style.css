@@ -1,0 +1,293 @@
+/* Home Page */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.play-button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 2em;
+    margin-bottom: 10em; 
+}
+body {
+    background-color: beige;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    gap: 1em;
+}
+
+.jeo-img {
+    height: 35vw;
+    border-radius: 5px;
+    border: 2px solid goldenrod;
+    max-height: 25em;
+    max-width: 50em;
+    box-shadow: goldenrod 0px 10px 40px -10px;
+}
+
+footer {
+    display: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 4em;
+    text-align: center;
+    border: 3px solid black;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 16pt;
+    color: black;
+}
+
+
+
+/* Round 1 + 2*/
+a{
+    text-decoration: none;
+}
+
+.main-menu {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #f5bc39;
+    border: 2px solid #f5bc39;
+}
+.main-menu:hover {
+    border: 2px solid black;
+}
+
+#round-one {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: #0532c7;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5px;
+    border: 3px solid black;
+    box-shadow: black 0px 10px 40px -10px;
+}
+
+#round-two {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: #0532c7;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5px;
+    border: 3px solid black;
+    box-shadow: black 0px 10px 40px -10px;
+}
+
+.game-table {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: black;
+    box-shadow: black 0px 10px 40px -10px;
+}
+
+td {
+}
+
+.jeopardy-row {
+    border: 1px solid black;
+    color: #af7f0e;
+    background-color: #0532c7;
+    height: 2em;
+    font-weight: bold;
+    font-size: 30pt;
+    cursor: pointer;
+}
+
+.jeopardy-row:hover {
+    scale: 110%;
+    color: #f5bc39;
+    border: 2px solid black;
+}
+
+#user-input {
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-size: 16pt;
+    padding-left: .5em;
+    margin-top: 1em;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    width: 10em;
+    border: 2px solid white;
+}
+
+#user-input:hover {
+    border: 2px solid black;
+}
+
+button {
+    border: none;
+    border-radius: 35px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: .2em;
+    font-size: 16pt;
+}
+
+.buttons-div {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 10pt;
+}
+
+#play-button {
+    background-color: #f5bc39;
+    border: 2px solid #f5bc39;
+    box-shadow: #af7f0e 0px 10px 40px -10px;
+    cursor: pointer;
+}
+
+#play-button:hover {
+    border: 2px solid black;
+}
+
+.guess {
+    background-color: #af7f0e;
+    cursor: pointer;
+}
+
+.guess:hover {
+    background-color: #f5bc39;
+}
+
+.pass {
+    background-color: #af7f0e;
+    cursor: pointer;
+}
+
+.pass:hover {
+    background-color: #f5bc39;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+.next-round {
+    display: flex;
+    justify-content: center;
+}
+#next-round {
+    background-color: #f5bc39;
+    border: 2px solid #f5bc39;
+}
+#next-round:hover {
+    border: 2px solid black;
+}
+.pass {
+    margin-left: 1em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+
+}
+
+.playerscore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30em;
+    padding-bottom: 5em;
+}
+
+.categories {
+    color: white;
+    font-size: 17pt;
+    font-weight: bold;
+    width: 5.5em;
+    height: 3.5em;
+    background-color: #0532c7;
+    border-bottom:1px solid black;
+    border-left: 1px solid black;
+    border-right:1px solid black;
+}
+
+
+#buttons:hover {
+    scale: 120%;
+    border: 2px solid goldenrod;
+    border-color: goldenrod;
+    color: goldenrod;
+}
+
+/* Final Round */
+
+.final-question {
+    border: 2px solid black;
+    padding: 4em;
+    background-color: royalblue;
+    border-radius: 5px;
+    font-size: 16pt;
+}
+
+.final-question:hover {
+    color: goldenrod;
+    scale: 115%;
+}
+
+#final-q {
+    border: 3px solid black;
+    width: 10em;
+    height: 7em;
+    cursor: pointer;
+}
+
+#final-q:hover {
+    scale: 110%;
+}
+
+.answer-form:hover {
+    border: 2px solid goldenrod;
+    border-color: goldenrod;
+}
+
+.answer-form {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 1em;
+    font-size: 16pt;
+}
+
+.final-answer-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    gap: 1em;
+}
